@@ -1,0 +1,70 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 0;
+}
+ ul li{
+    margin: 0 30px;
+ }
+ ul li a {
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: bold;
+    color: goldenrod;
+ }
+ ul li a:hover{
+    color: orange;
+ }
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Page background color */
+}
+
+#image-container {
+    width: 1200px;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    color: #ffc800c7;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.address, .hours {
+    color: #ffc800c7;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+#contact-button {
+    background-color: #ffc800c7;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#contact-button:hover {
+    background-color: #cc9e00b0
